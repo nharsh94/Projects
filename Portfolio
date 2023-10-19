@@ -1,0 +1,166 @@
+<html>
+  <head>
+    <meta charset="UTF-8" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="./styles.css"></link>
+    <link href="https://fonts.googleapis.com/css?family=Raleway:700&amp;display=swap" rel="stylesheet"></link>
+      <nav id="navbar" class="nav">
+        <ul class="nav-list">
+          <li>
+            <a href="#welcome-section">About</a>
+            </li>
+          <li>
+            <a href="#projects">Projects</a>
+          </li>
+          <li>
+            <a href="#contact-info">Contact</a>
+          </ul>
+          <meta name="viewport" content="width=device-width, initial-scale=1" />
+      </nav></head><body>
+<!-- WELCOME -->      
+      <section id="welcome-section">
+        <h1>hi, I'm noah.</h1>
+<div class="container">
+  <h2 class="title">
+    <span class="title-word title-word-1">a</span>
+    <span class="title-word title-word-2">web</span>
+    <span class="title-word title-word-3">developer</span>
+  </h2>
+</div>
+        <p>(and software engineering student)</p>
+      </section>
+<!-- PROJECTS -->
+      <section id="projects" class="projects-section">
+<h2 class="projects-section-header">take a look at some of my projects</h2>
+
+<div class="projects-grid" id="projects-grid" style="margin-bottom:128px">
+  <div class="w3-third">
+    <img src="//i.imgur.com/cxu0yZrl.jpg" class="project-image1" style="width:30%">
+    <a href="https://codepen.io/Noah-Harshbarger/pen/oNJrNNj" target="_blank" class="project-tile">
+  <p class="project-title">
+    CSS Penguin
+          </p></a>
+    <img src="https://i.imgur.com/eRv9Lun.png" class="project-image2" style="width:30%"><a href="https://codepen.io/Noah-Harshbarger/pen/XWoLjmK" target="_blank" class="project-title">
+  <p class="project-title">Tribute Page
+    </p></a>
+    <img class="project-image3" src="https://i.imgur.com/JMZnu9z.png" style="width:30%">
+      <a href="https://codepen.io/Noah-Harshbarger/pen/BavgGQw" target="_blank" class="project-title">
+      <p class="project-title">Survey Form</p></a>
+      </div>
+      </section>
+        <div class="sun"></div>
+            <div class="sun"></div>
+    <div class="sun"></div><br />
+    <div class="sun"></div>
+<!-- CONTACT -->
+<section id="contact-info" class="contact-section">
+  <div class="contact-section-header">
+    <h2>let's work together!</h2>
+    <p>feel free to reach me through</p>
+    </div>
+<div class="contact-links">
+  <a id="profile-link" href="https://www.linkedin.com/in/noah-harshbarger/" target="_blank" class="ln-contact-details">
+  <i class="fa fa-linkedin-square"></i>
+   LinkedIn</a><br />
+<a id="profile-link" href="https://github.com/nharsh94" target="_blank">
+<i class="fa fa-github"></i>GitHub</a><br /><br />
+<a  id="email" href="mailto:noahharshb@gmail.com" target="_blank"><i class="fa fa-envelope"> or just email me</i></a> 
+<!-- FOOTER -->
+  <footer>
+  </footer>
+</body>
+</html>
+
+<script>
+:root {
+  background: sandybrown;
+  font-family: Raleway;
+  color: #000;
+  text-align: center;
+}
+
+head {
+  text-align: center;
+}
+
+nav {
+  font-size: 10px;
+  underline-type: none;
+  position: absolute;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+div { 
+  }
+
+  img {
+    box-shadow: 10px 2px 21px black;
+  }
+  
+body { 
+}
+
+@media (max-width: 61.25em) {
+  font-size: 50%;
+}
+
+a {
+  color: #000;
+}
+
+.title-word {
+  animation: color-animation 4s linear infinite;
+}
+
+.title-word-1 {
+  --color-1: #DF8453;
+  --color-2: #3D8DAE;
+  --color-3: #E4A9A8;
+}
+
+.title-word-2 {
+  --color-1: #DBAD4A;
+  --color-2: #ACCFCB;
+  --color-3: #17494D;
+}
+
+.title-word-3 {
+  --color-1: #ACCFCB;
+  --color-2: #E4A9A8;
+  --color-3: #ACCFCB;
+}
+
+@keyframes color-animation {
+  0%    {color: var(--color-1)}
+  32%   {color: var(--color-1)}
+  33%   {color: var(--color-2)}
+  50%   {color: var(--color-3)}
+  65%   {color: var(--color-2)}
+  100%  {color: var(--color-1)}
+}
+
+.container {
+  place-items: center;  
+  text-align: center;
+}
+
+.title {
+  font-weight: 800;
+  font-size: 5.5vw;
+}
+
+p {
+  font-size: 2vw;
+}
+ .sun {
+  background-color: black;
+  border-radius: 25% auto;
+  margin: 0 auto;
+  height: 8vh;
+  aspect-ratio: 1 / 1;
+}
+</script>
